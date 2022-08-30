@@ -12,4 +12,8 @@ public class LoginController {
 	public String createPage() {
 		return "create.html";
 	}
+	@GetMapping("/")
+	public String createPage1() {
+		return "create1.html";
+	}
 }
